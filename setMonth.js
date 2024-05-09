@@ -1,2 +1,2 @@
-console.log(typeof typeof 1);
-const flattenedArray = arr => [].concat(...arr);
+const randomBoolean = () => Math.random() >= 0.5;
+const merge = [...new Set(a.concat(b))];
