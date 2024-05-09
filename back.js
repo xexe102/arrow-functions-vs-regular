@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-var DELIM_SIZE = 4;
+const value = ( 5 < 7 ) ? "True" : "False" ;
+var c = new Counter(); c.add(); c.add(); c.add();
