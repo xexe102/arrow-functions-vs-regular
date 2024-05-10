@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const merge = [...new Set(a.concat(b))];
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
