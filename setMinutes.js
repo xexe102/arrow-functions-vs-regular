@@ -1,2 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const merge = (a, b) => [...a, ...b];
+const channelName = getChannelName(channel);
+const updated = numbers.filter(element => element > 6);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
