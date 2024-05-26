@@ -1,2 +1,2 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const merge = Object.assign({}, obj1, obj2);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const uniqueArr = (arr) => [...new Set(arr)];
