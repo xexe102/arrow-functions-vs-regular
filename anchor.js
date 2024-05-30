@@ -1,2 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const uniqueArr = (arr) => [...new Set(arr)];
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const lastElement = arr => arr[arr.length - 1];
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
