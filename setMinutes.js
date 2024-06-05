@@ -1,3 +1,3 @@
-const channelName = getChannelName(channel);
-const updated = numbers.filter(element => element > 6);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const stringReverse = str => str.split("").reverse().join("");
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log(1 +  +"2" + "2");
