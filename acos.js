@@ -1,3 +1,3 @@
-const merge = (a, b) => a.concat(b);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-console.log(1 +  +"2" + "2");
+const result = await makeHttpRequest(url);
+const flattenedArray = arr => [].concat(...arr);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
