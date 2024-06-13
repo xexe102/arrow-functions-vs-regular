@@ -1,2 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const updated = numbers.filter(element => element > 6);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+function myAPITS(someString: string, someNum: number) { ... };
+const merge = (a, b) => [...a, ...b];
