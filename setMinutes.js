@@ -1,3 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log(1 +  +"2" + "2");
+const merge = [...new Set([...a, ...b])];
+const toggleBool = () => (bool = !bool);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
