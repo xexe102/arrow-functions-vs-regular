@@ -1,2 +1,2 @@
-const uniqueArray = arr => [...new Set(arr)];
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+function myAPITS(someString: string, someNum: number) { ... };
+console.log(1 +  +"2" + "2");
