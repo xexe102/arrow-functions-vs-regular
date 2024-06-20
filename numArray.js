@@ -1,3 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-function myAPITS(someString: string, someNum: number) { ... };
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
 const merge = (a, b) => [...a, ...b];
