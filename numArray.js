@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-var arr1 = "john".split('');
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+var arr3 = "jones".split('');
