@@ -1,1 +1,1 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
