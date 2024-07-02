@@ -1,2 +1,1 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
