@@ -1,1 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const appName = getAppName(channel);
