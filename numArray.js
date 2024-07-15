@@ -1,2 +1,3 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-var arr3 = "jones".split('');
+const removeDuplicates = (arr) => [...new Set(arr)];
+const uniqueArray = arr => [...new Set(arr)];
+console.log(+"1" +  "1" + "2");
