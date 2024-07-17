@@ -1,3 +1,3 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const uniqueArray = arr => [...new Set(arr)];
-console.log(+"1" +  "1" + "2");
+const executableName = getExecutableName(channel, appName);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const symbolsPath = path.join(buildOutputPath, 'symbols');
