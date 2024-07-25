@@ -1,2 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
-var DELIM_SIZE = 4;
+var arr1 = "john".split('');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
