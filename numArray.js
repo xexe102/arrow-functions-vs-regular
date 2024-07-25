@@ -1,3 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const isTabInView = () => !document.hidden;
+const isArray = (arr) => Array.isArray(arr);
