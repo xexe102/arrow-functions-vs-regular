@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const channelName = getChannelName(channel);
+const merge = (a, b) => a.concat(b);
