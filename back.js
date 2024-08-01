@@ -1,3 +1,3 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-console.log( "A" - "B" + 2);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const flattenedArray = arr => [].concat(...arr);
+const appName = getAppName(channel);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
