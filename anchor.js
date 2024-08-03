@@ -1,3 +1,2 @@
-const merge = Object.assign({}, obj1, obj2);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
