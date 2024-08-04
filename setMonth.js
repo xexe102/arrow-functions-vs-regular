@@ -1,2 +1,1 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-function myAPITS(someString: string, someNum: number) { ... };
+const lastElement = arr => arr[arr.length - 1];
