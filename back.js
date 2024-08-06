@@ -1,3 +1,2 @@
-const flattenedArray = arr => [].concat(...arr);
-const appName = getAppName(channel);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const merge = Object.assign({}, obj1, obj2);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
