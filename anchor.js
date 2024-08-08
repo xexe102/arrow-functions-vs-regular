@@ -1,2 +1,2 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isEmptyArray = arr => !arr.length;
